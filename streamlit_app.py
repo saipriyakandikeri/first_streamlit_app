@@ -42,6 +42,5 @@ streamlit.dataframe(fruits_to_show)
 
 import swaggerhub
 my_food_list = swaggerhub.readcsv (https://api.nal.usda.gov/fdc/v1/foods/search?api_key=DEMO_KEY&query=Cheddar%20Cheese)
+streamlit dataframe (my_food_list)
 
-# lets put a pick list here so they can pick the fruit they want to include
-streamlit.multiselect ("pick some fruits:",list(my_food_list.index))

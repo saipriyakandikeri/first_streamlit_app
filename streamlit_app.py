@@ -54,4 +54,3 @@ streamlit.text('hard_boiled free_range egg')
 streamlit.text('avcado toast')
 
 
-

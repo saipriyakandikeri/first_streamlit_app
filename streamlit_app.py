@@ -44,13 +44,3 @@ streamlit.dataframe(fruits_to_show)
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 streamlit.text(fruityvice_response)  
-
-import streamlit
-streamlit.title('My moms New Healthy Diner')
-streamlit.header('Breakfast favourites')
-streamlit.text('omega3 & blueberry oatmeal')
-streamlit.text('kale spinach & rocket smoothie')
-streamlit.text('hard_boiled free_range egg')
-streamlit.text('avcado toast')
-
-

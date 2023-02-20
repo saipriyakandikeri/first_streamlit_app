@@ -40,9 +40,6 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 #display the table on page
 streamlit.dataframe(fruits_to_show)
 
-import swaggerhub
-my_food_list = swaggerhub.readcsv (https://api.nal.usda.gov/fdc/v1/foods/search?api_key=DEMO_KEY&query=Cheddar%20Cheese)
-streamlit dataframe (my_food_list)
 
 # New section to display fruityvice api response
 import requests

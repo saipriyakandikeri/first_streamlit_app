@@ -44,3 +44,8 @@ import swaggerhub
 my_food_list = swaggerhub.readcsv (https://api.nal.usda.gov/fdc/v1/foods/search?api_key=DEMO_KEY&query=Cheddar%20Cheese)
 streamlit dataframe (my_food_list)
 
+# New section to display fruityvice api response
+import requests
+fruityvice_response = request.get ("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response)
+

@@ -41,6 +41,5 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
 
-$ python -m pip install requests
-
-
+$ git clone https://github.com/psf/requests.git
+Or, download the tarball:
